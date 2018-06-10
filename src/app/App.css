@@ -1,0 +1,16 @@
+.app {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a {
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: #dc587d;
+}
