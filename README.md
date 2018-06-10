@@ -10,13 +10,14 @@ Preparation:
 Tasks:
   1. Implement MVP
         Fetch data from the API and render it to screen (title, data, source).
-        Clicking the title should launch the url.
+        Clicking the title should launch the full article.
 		    Style the app as per the mockup.
 		    Add the 'Powered by News API' link.
 
   2. Add the show more button
 
-  3. Add the filter drop down
+  3. Add the filter drop down (Not Completed)
 
 Other future improvement's:
-  * Add loading spinner
+  * Spend more time on tests to cover all edge cases and improve coverage.
+  * Add loading spinner.

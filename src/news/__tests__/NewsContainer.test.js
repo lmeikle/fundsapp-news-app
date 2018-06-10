@@ -4,11 +4,13 @@ import NewsContainer from '../NewsContainer';
 import App from '../../app/App';
 
 const initialState = {
-  headlines: null,
+  totalResults: 0,
+  headlines: [],
   error: null
 };
 
 const readyState = {
+  totalResults: 2,
   headlines: [
     {
       title: 'Putin ready to meet Trump over arms race concerns',
@@ -46,7 +48,7 @@ describe('NewsContainer', () => {
     expect(newsContainer.find('NewsHeadlineComponent').length).toBe(2);
   });
 
-  test('displays a error message', () => {
+  test('displays an error message', () => {
     newsContainer.setState(errorState);
     expect(newsContainer.find('.errorMessage').exists()).toBe(true);
   });
